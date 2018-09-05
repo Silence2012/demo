@@ -1,9 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	panicAndRecover()
+tags := "hostType:sell;HPGEN9_32C_251G"
+strings.Trim()
+	strings.Replace(tags, "serverModule:", "", -1)
+
+
 	fmt.Println("I need to run the statement at any cost!")
 }
 

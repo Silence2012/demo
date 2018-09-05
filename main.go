@@ -1,7 +1,6 @@
 package main
-
+func  A( ...string) {
+    
+}
 func main() {
-       for i := 0; i < 5; i++ {
-              defer println(i)
-       }
 }
