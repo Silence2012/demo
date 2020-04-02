@@ -12,4 +12,5 @@ func main() {
 	} else {
 		fmt.Println("not contain")
 	}
+	fmt.Println("good")
 }
